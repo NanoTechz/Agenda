@@ -1,13 +1,5 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package agenda;
 
-/**
- *
- * @author alunos
- */
 public class Contato {
     private String nome;
     private String telefone;
