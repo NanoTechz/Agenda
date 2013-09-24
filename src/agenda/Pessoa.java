@@ -1,10 +1,13 @@
 package agenda;
 
-public class Contato {
+public class Pessoa {
+    
     private String nome;
+    private String email;
     private String telefone;
+    private String endereco;
 
-    public Contato(String nome) {
+    public Pessoa(String nome) {
         this.nome = nome;
     }
 
@@ -23,5 +26,20 @@ public class Contato {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-  
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
 }
