@@ -10,8 +10,8 @@ public class Agenda {
         this.listaContatos = new Vector();
     }
 
-    public String adicionarContato(Contato contato) {
-        listaContatos.add(contato);
+    public String adicionarContato(Pessoa pessoa) {
+        listaContatos.add(pessoa);
         return "Contato adicionado com sucesso";
     }
 }
