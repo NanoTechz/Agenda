@@ -1,5 +1,6 @@
-package agenda;
+package agenda.modelo;
 
+import agenda.modelo.Pessoa;
 import java.util.Vector;
 
 public class Agenda {
@@ -14,4 +15,9 @@ public class Agenda {
         listaContatos.add(pessoa);
         return "Contato adicionado com sucesso";
     }
+
+    public Vector getListaContatos() {
+        return listaContatos;
+    }
+    
 }

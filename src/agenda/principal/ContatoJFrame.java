@@ -8,8 +8,10 @@
  *
  * Created on 18/09/2013, 14:17:59
  */
-package agenda;
+package agenda.principal;
 
+import agenda.modelo.Agenda;
+import agenda.modelo.Pessoa;
 import javax.swing.JOptionPane;
 
 /**
