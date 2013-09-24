@@ -17,11 +17,11 @@ import javax.swing.JOptionPane;
  * @author alunos
  */
 public class ContatoJFrame extends javax.swing.JFrame {
-    private Agenda listaContatos;
+    private Agenda listaPessoas;
     /** Creates new form ContatoJFrame */
     public ContatoJFrame() {
         initComponents();
-        listaContatos = new Agenda();
+        listaPessoas = new Agenda();
     }
 
     /** This method is called from within the constructor to
@@ -155,10 +155,10 @@ public class ContatoJFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Contato contato = new Contato(nome.getText());
+        Pessoa contato = new Pessoa(nome.getText());
         contato.setTelefone(telefone.getText());
         
-        JOptionPane.showMessageDialog(rootPane, listaContatos.adicionarContato(contato));
+        JOptionPane.showMessageDialog(rootPane, listaPessoas.adicionarContato(contato));
         
         //limpar tela;
         nome.setText("");
